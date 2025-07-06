@@ -49,6 +49,22 @@
     .links a:hover {
       background-color: #e14242;
     }
+    .goober-sound {
+      margin-top: 40px;
+    }
+    .goober-sound button {
+      background-color: #ff5f5f;
+      color: white;
+      padding: 15px 30px;
+      font-size: 1.2rem;
+      border: none;
+      border-radius: 12px;
+      cursor: pointer;
+      transition: background-color 0.2s ease-in-out;
+    }
+    .goober-sound button:hover {
+      background-color: #e14242;
+    }
     footer {
       margin-top: 60px;
       padding: 30px;
@@ -69,6 +85,13 @@
     <p>$GOOB is a memecoin for the lovable degenerates who don’t care about whitepapers, roadmaps, or fake utility.</p>
     <p>If you’ve ever bought the top, held through rugs, or aped into garbage — congratulations: You’re already a Goober.</p>
     <p>We didn’t build $GOOB to be smart. We built it to be fun, viral, dumb... but unstoppable.</p>
+  </div>
+
+  <!-- 🔊 Get Goobed Sound Button Section -->
+  <div class="section goober-sound">
+    <h2>Need a Goober Moment?</h2>
+    <button onclick="document.getElementById('gooberAudio').play()">🔊 Get Goobed</button>
+    <audio id="gooberAudio" src="gotcha.mp3"></audio> <!-- Replace with your actual fart or chaos sound -->
   </div>
 
   <div class="section links">
